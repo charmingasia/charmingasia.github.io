@@ -414,18 +414,18 @@ HTMLActuator.prototype.updateScore = function (score) {
 
   this.scoreContainer.textContent = this.score;
 
-  if (difference > 0) {
-    var addition = document.createElement("div");
-    addition.classList.add("score-addition");
-    addition.textContent = "+" + difference;
+  // if (difference > 0) {
+  //   var addition = document.createElement("div");
+  //   addition.classList.add("score-addition");
+  //   addition.textContent = "+" + difference;
 
-    this.scoreContainer.appendChild(addition);
-  }
+  //   this.scoreContainer.appendChild(addition);
+  // }
 };
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!"
+  var message = won ? "Wygrałeś!" : "Przegrałeś!"
 
   // if (ga) ga("send", "event", "game", "end", type, this.score);
 

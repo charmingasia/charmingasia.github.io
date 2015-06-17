@@ -74,7 +74,7 @@ h1.title {
   width: 100%;
   top: 10px;
   left: 0;
-  content: "Score";
+  content: "Wynik";
   text-transform: uppercase;
   font-size: 13px;
   line-height: 13px;
@@ -185,7 +185,7 @@ hr {
   font-weight: bold;
   height: 60px;
   line-height: 60px;
-  margin-top: 222px;
+  margin-top: 140px;
 }
 .game-container .game-message .lower {
   display: block;
@@ -193,7 +193,7 @@ hr {
 }
 .game-container .game-message a {
   display: inline-block;
-  background: #8f7a66;
+  background: #8f7a66 !important;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
@@ -231,6 +231,7 @@ hr {
   width: 26.25px;
   height: 26.25px;
   margin-right: 3px !important;
+  margin-bottom: 3px !important;
   float: left;
   border-radius: 3px;
   background: rgba(238, 228, 218, 0.35);
