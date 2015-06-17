@@ -204,6 +204,9 @@ body {
 .hentry .entry-meta div {
 	margin: 10px;
 }
+.hentry .entry-meta.gra div {
+	margin: 0;
+}
 .hentry .entry-meta .date {
 	color: #000;
 	font-weight: bold;
