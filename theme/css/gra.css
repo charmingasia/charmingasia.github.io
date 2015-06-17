@@ -121,7 +121,7 @@ hr {
 
 .container {
   width: 120px;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }
 
 @-webkit-keyframes $animation-name {
